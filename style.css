@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  margin-right: 50px;
+}
+.navbar li {
+  font-size: 11px;
+  line-height: 13px;
+  margin-right: 20px;
+}
+.intro {
+  margin-top: 56px;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  justify-content: center;
+}
+.converter-boxes {
+  display: flex;
+  justify-content: center;
+}
+.left-box {
+  margin-right: 50px;
+}
+.intro p {
+  color: rgba(159, 159, 159, 1);
+}
+.active-btn {
+  background-color: blueviolet;
+  color: rgba(255, 255, 255, 1);
+}
+
+.insert,
+.result {
+  width: 259px;
+  height: 102px;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid rgba(229, 229, 229, 1);
+}
+input {
+  border-color: transparent;
+}
+.insert p,
+.result p {
+  margin-top: 20px;
+}
